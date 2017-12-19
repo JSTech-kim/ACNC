@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ACNC</string>
+    <string name="database_name">acnc_db</string>
+    <string name="table_name">acnc_table</string>
+    <string name="banner_ad_unit_id_choice">ca-app-pub-2244213128770020/8799061703</string>
+    <string name="banner_app_id">ca-app-pub-2244213128770020~6289637805</string>
+
+</resources>

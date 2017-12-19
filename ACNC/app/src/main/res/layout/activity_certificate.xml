@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_certificate"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jstech.acnc.Environment.CertificateActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_certificate_label_open_source"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Open Source Library"
+            android:textSize="25sp"
+            android:layout_marginTop="30sp"
+            android:paddingLeft="15sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3sp"
+            android:background="@color/colorLightViolet"
+            android:layout_marginLeft="15sp"
+            android:layout_marginRight="15sp"
+            android:layout_marginTop="10sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="com.android.support:appcompat-v7:25.0.1"
+            android:paddingLeft="20sp"
+            android:layout_marginTop="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="com.android.support:cardview-v7:25.0.+"
+            android:paddingLeft="20sp"
+            android:layout_marginTop="10sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="com.android.support:recyclerview-v7:25.0.+"
+            android:paddingLeft="20sp"
+            android:layout_marginTop="10sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="com.melnykov:floatingactionbutton:1.3.0"
+            android:paddingLeft="20sp"
+            android:layout_marginTop="10sp" />
+
+
+        <TextView
+            android:id="@+id/tv_certificate_label_fonts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fonts"
+            android:textSize="25sp"
+            android:layout_marginTop="30sp"
+            android:paddingLeft="15sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3sp"
+            android:background="@color/colorLightViolet"
+            android:layout_marginLeft="15sp"
+            android:layout_marginRight="15sp"
+            android:layout_marginTop="10sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="3Dventure.ttf"
+            android:paddingLeft="20sp"
+            android:layout_marginTop="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="vcr_osd_mono_1.001.ttf"
+            android:paddingLeft="20sp"
+            android:layout_marginTop="10sp" />
+
+
+        <TextView
+            android:id="@+id/tv_certificate_label_personal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Personal Sensitive Information"
+            android:textSize="25sp"
+            android:layout_marginTop="30sp"
+            android:paddingLeft="15sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3sp"
+            android:background="@color/colorLightViolet"
+            android:layout_marginLeft="15sp"
+            android:layout_marginRight="15sp"
+            android:layout_marginTop="10sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="http://blog.naver.com/sujinsub/221067991731"
+            android:autoLink="web"
+            android:paddingLeft="20sp"
+            android:layout_marginTop="20sp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

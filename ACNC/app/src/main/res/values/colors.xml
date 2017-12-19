@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFEEDD</color>
+    <color name="colorPrimaryDark">#e6473e</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorMainBackground">#ffddf6</color>
+
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorCardView">#007186</color>
+
+    <color name="fabPrimary">#fafafa</color>
+    <color name="fabPressed">#cfcfcf</color>
+    <color name="fabRipple">#fafafa</color>
+
+    <!--color name="fabPrimary">#45A1F5</color>
+    <color name="fabPressed">#6EB5F7</color>
+    <color name="fabRipple">#AED6FC</color-->
+
+    <color name="colorButton1">#ffe8ff</color>
+    <color name="colorButton2">#f8ffff</color>
+    <color name="colorButton3">#efffff</color>
+    <color name="colorButton4">#e8efcf</color>
+
+    <color name="colorLabel">#73A598</color>
+
+    <color name="colorUltraMarine">#000099</color>
+    <color name="colorKaminRed">#990000</color>
+    <color name="colorLightViolet">#ADAEC6</color>
+</resources>

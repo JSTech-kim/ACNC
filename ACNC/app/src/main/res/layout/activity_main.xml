@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jstech.acnc.MainActivity"
+    android:background="@color/colorPrimaryDark">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_MainAppName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ACNC"
+            android:textSize="100sp"
+            android:textColor="@color/colorWhite"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:layout_marginTop="100dp" />
+
+        <TextView
+            android:id="@+id/tv_SubAppName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alcohol? No Call!"
+            android:textSize="20sp"
+            android:textColor="@color/colorWhite"
+            android:layout_centerVertical="true"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="200dp"
+        android:layout_marginBottom="1dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/iv_btn_nocall"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/main_img_hide"
+                android:paddingTop="10dp"
+                android:paddingBottom="15dp"
+                android:layout_marginLeft="20dp"
+                android:onClick="Click_Btn_Hide"  />
+
+            <TextView
+                android:id="@+id/tv_btn_nocall"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/tv_border"
+                android:text="No Call"
+                android:textSize="25dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textAlignment="viewEnd"
+                android:paddingRight="40dp"
+                android:gravity="center_vertical"
+                android:onClick="Click_Btn_Hide" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/iv_btn_about"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/main_img_env"
+                android:paddingTop="10dp"
+                android:paddingBottom="15dp"
+                android:layout_marginLeft="20dp"
+                android:onClick="Click_Btn_Environment"/>
+
+            <TextView
+                android:id="@+id/tv_btn_about"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/tv_border"
+                android:text="About"
+                android:textSize="25dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:textAlignment="viewEnd"
+                android:paddingRight="50dp"
+                android:gravity="center_vertical"
+                android:onClick="Click_Btn_Environment" />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <!-- Split Activity to 3 Layout including Image View -->
+    <!--RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_margin="5dp">
+
+        <ImageView
+            android:id="@+id/iv_hide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/main_img_hide_exclick"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:padding="10dp"
+            android:clickable="true"
+            android:onClick="Click_Btn_Hide"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_margin="5dp">
+
+        <ImageView
+            android:id="@+id/iv_env"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/main_img_env_exclick"
+            android:padding="10dp"
+            android:clickable="true"
+            android:onClick="Click_Btn_Environment"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true" />
+    </RelativeLayout-->
+
+</LinearLayout>

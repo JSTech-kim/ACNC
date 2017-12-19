@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_set_hide_info"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jstech.acnc.Hide.SetHideInfo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:background="@color/colorPrimaryDark">
+
+            <TextView
+                android:layout_weight="2"
+                android:text="NAME"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/label_name"
+                android:textSize="25sp"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_weight="1"
+                android:text=""
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/setinfo_label_name"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:background="@color/colorWhite" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:background="@color/colorPrimaryDark">
+
+            <TextView
+                android:layout_weight="2"
+                android:text="PHONE"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/label_phone"
+                android:textSize="25sp"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_weight="1"
+                android:text=""
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/setinfo_label_phone"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:background="@color/colorWhite" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:background="@color/colorPrimaryDark">
+
+            <TextView
+                android:layout_weight="2"
+                android:text="EMAIL"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/label_email"
+                android:textSize="25sp"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_weight="1"
+                android:text=""
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/setinfo_label_email"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:background="@color/colorWhite" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:background="@color/colorCardView">
+
+            <TextView
+                android:text="START DATE"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/label_start_date"
+                android:textSize="30sp"
+                android:gravity="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="5dp">
+
+            <DatePicker
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/datepicker_start"
+                android:calendarViewShown="false"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10sp"/>
+
+            <TimePicker
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/timepicker_start"
+                android:calendarViewShown="false"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:background="@color/colorCardView">
+
+            <TextView
+                android:text="DUE DATE"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/label_expire_date"
+                android:textSize="30sp"
+                android:gravity="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="5dp">
+
+            <DatePicker
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/datepicker_expire"
+                android:calendarViewShown="false"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10sp"/>
+
+            <TimePicker
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/timepicker_expire"
+                android:calendarViewShown="false"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="5dp"
+            android:padding="10dp">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="확 인"
+                android:textSize="15sp"
+                android:onClick="Click_Ok"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="취 소"
+                android:textSize="15sp"
+                android:onClick="Click_Cancel"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
